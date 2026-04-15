@@ -1,5 +1,4 @@
-# NDT-CAM: A Light, Real-time and Accuracy Visual-assisted LiDAR SLAM for High Altitude Surveying and Mapping
-The code will be made publicly available after the paper is accepted.
+# NDT-CAM: A Simple, Adaptive, and Robust Visual-assisted LiDAR Odometry for High Altitude Mapping
 ## 1.System overview
 ![System overview](./works/1.png)
 ## 2.Performance

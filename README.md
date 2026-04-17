@@ -7,13 +7,13 @@ It aims to provide **robust**, **adaptive**, and **accurate** odometry performan
 
 ## 📌 1. System Overview
 
-![System overview](./works/1.png)
+![System overview](./works/Pipeline.png)
 
 ---
 
 ## 📈 2. Performance
 
-![Performance](./works/2.png)
+![Performance](./works/Map.png)
 
 ---
 

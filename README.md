@@ -1,27 +1,53 @@
-# NDT-CAM: A Simple, Adaptive, and Robust Visual-assisted LiDAR Odometry for High Altitude Mapping
-## 1.System overview
-![System overview](./works/1.png)
-## 2.Performance
-![Performance](./works/2.png)
-## 3.Experimental Video (to be updated)
-https://www.youtube.com/watch?v=UKfhbmbfFlM
+# 🚀 NDT-CAM: A Simple, Adaptive, and Robust Visual-Assisted LiDAR Odometry for High-Altitude Mapping
 
-## 4. Datasets
-Link: https://pan.baidu.com/s/1tPx2HpEWGjJUuKa0NN8XPw?pwd=v9er Code: v9er 
-## 5. Requirements
-Recommended environment:
+NDT-CAM is a visual-assisted LiDAR odometry system designed for **high-altitude mapping** scenarios.  
+It aims to provide **robust**, **adaptive**, and **accurate** odometry performance in **sparse**, **scale-varying**, and **degeneration-prone** environments.
+
+---
+
+## 📌 1. System Overview
+
+![System overview](./works/1.png)
+
+---
+
+## 📈 2. Performance
+
+![Performance](./works/2.png)
+
+---
+
+## 🎥 3. Experimental Video
+
+[YouTube Demo](https://www.youtube.com/watch?v=UKfhbmbfFlM)
+
+---
+
+## 📂 4. Dataset
+
+**Baidu Netdisk:**  
+https://pan.baidu.com/s/1tPx2HpEWGjJUuKa0NN8XPw?pwd=v9er
+
+**Extraction code:** `v9er`
+
+---
+
+## 🛠️ 5. Requirements
+
+### ✅ Recommended Environment
 
 - Ubuntu 20.04
 - ROS Noetic
 - Catkin tools
 - C++14 compiler
 
-Main dependencies used by the project:
+### 📦 Main Dependencies
 
 - `roscpp`
 - `sensor_msgs`
 - `nav_msgs`
-- `tf2`, `tf2_ros`
+- `tf2`
+- `tf2_ros`
 - `cv_bridge`
 - `PCL`
 - `OpenCV 4`
@@ -30,11 +56,16 @@ Main dependencies used by the project:
 - `TBB`
 - `OpenMP`
 - `glog`
-- `livox_ros_driver` for Livox-based setups
+- `livox_ros_driver` (for Livox-based setups)
 
-## 6. Installation
+---
 
-This repository is already structured as a catkin workspace. Build it from the workspace root:
+## ⚙️ 6. Installation
+
+This repository is already organized as a **Catkin workspace**.  
+Build it from the workspace root.
+
+### 6.1 Build the workspace
 
 ```bash
 cd /path/to/ndt_cam
@@ -42,48 +73,10 @@ source /opt/ros/noetic/setup.bash
 catkin build ndt_cam
 source devel/setup.bash
 ```
-### Install system dependencies
 
-On Ubuntu 20.04 + ROS Noetic, you can install the common build dependencies with:
+### 6.2 Install dependencies
 
-```bash
-sudo apt update
-sudo apt install -y \
-  build-essential \
-  cmake \
-  git \
-  pkg-config \
-  python3-catkin-tools \
-  libeigen3-dev \
-  libgoogle-glog-dev \
-  libomp-dev \
-  libopencv-dev \
-  libpcl-dev \
-  libtbb-dev
-```
-
-### Install ROS dependencies
-
-Install the ROS packages used by `ndt_cam`:
-
-```bash
-sudo apt update
-sudo apt install \
-  ros-noetic-ros-base \
-  ros-noetic-geometry-msgs \
-  ros-noetic-nav-msgs \
-  ros-noetic-sensor-msgs \
-  ros-noetic-std-msgs \
-  ros-noetic-tf2 \
-  ros-noetic-tf2-ros \
-  ros-noetic-cv-bridge \
-  ros-noetic-pcl-conversions \
-  ros-noetic-rosbag \
-  ros-noetic-image-transport
-```
-### Recommended full setup command
-
-If you want a single copy-paste setup block for a fresh machine:
+For **Ubuntu 20.04 + ROS Noetic**, you can use the following one-command setup on a fresh machine:
 
 ```bash
 sudo apt update

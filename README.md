@@ -19,7 +19,7 @@ It aims to provide **robust**, **adaptive**, and **accurate** odometry performan
 
 ## 🎥 3. Experimental Video
 
-[YouTube Demo](https://www.youtube.com/watch?v=UKfhbmbfFlM)
+[YouTube Demo](https://www.youtube.com/watch?v=-YhCBNwoRNc)
 
 ---
 
